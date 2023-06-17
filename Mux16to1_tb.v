@@ -1,4 +1,4 @@
-//Directed testbench for 16*1 mux dut in verilog
+//Directed testbench for 16*1 mux dut in verilog 
 
 module muxtest;
 	reg [15:0] A; reg [3:0] S; wire F;
