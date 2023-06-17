@@ -1,4 +1,4 @@
-//DUT code for 4*16 decoder using 1*2 decoders in heirarchial design
+//DUT code for 4*16 decoder using 1*2 decoders in heirarchial design 
 
 //1*2 decoder structural design at gate level
 module decoder1to2(in,en,D);
