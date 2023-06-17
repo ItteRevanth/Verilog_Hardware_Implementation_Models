@@ -1,4 +1,4 @@
-//DUT code for 16*1 multiplexer using 2*1 multiplexers in heirarchy
+//DUT code for 16*1 multiplexer using 2*1 multiplexers in heirarchy 
 
 //2*1 Multiplexer structural design at gate level
 module mux2to1(in,sel,out);
