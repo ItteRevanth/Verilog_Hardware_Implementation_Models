@@ -1,4 +1,4 @@
-//DUT code for 16-bit Ripple Carry Adder using simple full-adders in heirarchy
+//DUT code of 16-bit Ripple Carry Adder with simple full-adders in heirarchy
 
 //Full-Adder structural design at gate level
 module fulladder(C1,X,Y,Z,C);
