@@ -1,4 +1,4 @@
-//Directed testbench code for 4*16 decoder in verilog
+//Directed testbench code for 4*16 decoder in verilog 
 
 module decoder4to16_test;
 	reg [3:0] I; reg en; wire [0:15] D;
