@@ -12,7 +12,7 @@ module decoder1to2(in,en,D);
 	and G3(D[1],en,in);
 endmodule
 
-//2*4 decoder structural design using 1*2 decoders
+//2*4 decoder structural design at logic/block level
 module decoder2to4(in,en,D);
 	input [1:0] in;
 	input en;
@@ -24,7 +24,7 @@ module decoder2to4(in,en,D);
 	decoder1to2 D2(in[0],t[1],D[3:2]);
 endmodule
 
-//4*16 decoder structural design using 2*4 decoders
+//4*16 decoder structural design at logic/block level
 module decoder4to16(in,en,D);
 	input [3:0] in;
 	input en;
